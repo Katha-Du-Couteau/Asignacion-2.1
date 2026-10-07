@@ -26,19 +26,36 @@ public class prueba {
         tv3.pulgadas = 70;
         tv3.volumen = 100;
         
+        System.out.println("Marca: " + tv1.marca);
+        System.out.println("Pulgadas: " + tv1.pulgadas);
+        System.out.println("Volumen: " + tv1.volumen);
+        
         tv1.encender();
         tv1.subirVolumen();
         tv1.bajarVolumen();
         tv1.apagar();
+        
+        System.out.println("----------------------------");
+        
+        System.out.println("Marca: " + tv2.marca);
+        System.out.println("Pulgadas: " + tv2.pulgadas);
+        System.out.println("Volumen: " + tv2.volumen);
         
         tv2.encender();
         tv2.subirVolumen();
         tv2.bajarVolumen();
         tv2.apagar();
         
+        System.out.println("----------------------------");
+        
+        System.out.println("Marca: " + tv3.marca);
+        System.out.println("Pulgadas: " + tv3.pulgadas);
+        System.out.println("Volumen: " + tv3.volumen);
+        
         tv3.encender();
         tv3.subirVolumen();
         tv3.bajarVolumen();
         tv3.apagar();
+        
     }
 }
